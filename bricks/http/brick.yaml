@@ -1,0 +1,7 @@
+name: http
+description: A http client interface with default DIO implementation
+
+version: 0.1.0+1
+environment:
+  mason: ">=0.1.0-dev.49 <0.1.0"
+

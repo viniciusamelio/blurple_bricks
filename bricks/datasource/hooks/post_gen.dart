@@ -1,13 +1,18 @@
 import 'dart:io';
 
+import 'package:cli_spin/cli_spin.dart';
 import 'package:mason/mason.dart';
 
 void run(HookContext context) async {
+  final uuidSpinner = CliSpin(
+    text: "Installing dependencies",
+    spinner: CliSpinners.bluePulse,
+  );
+  uuidSpinner.info();
   await Process.run("flutter", ["pub", "add", "uuid"]);
+  uuidSpinner.success("UUID installed ✅✅");
   if (!context.vars["couchbase"]) {
-    context.logger.success(
-      "Couchbase installation skipped &&  Couchbase files removed",
-    );
+    uuidSpinner.success("Couchbase installation skipped ⏩⏩");
     await Process.run(
       "rm",
       ["-R", "lib/core/database/couch_database"],
@@ -15,11 +20,11 @@ void run(HookContext context) async {
     );
     return;
   }
-  context.logger.info("Adding couchbase as dependency ⏳⏳");
+  uuidSpinner.info("Installing couchbase packages");
   await Process.runSync(
     "flutter",
     ["pub", "add", "cbl_flutter", "cbl", "cbl_flutter_ce"],
     runInShell: true,
   );
-  context.logger.success("Couchbase dependencies added ✅✅");
+  uuidSpinner.success("Couchbase Lite installed ✅✅");
 }

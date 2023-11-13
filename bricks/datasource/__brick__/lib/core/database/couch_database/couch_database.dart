@@ -6,6 +6,8 @@ import '../query.dart';
 import '../result.dart';
 import 'filter_mapper.dart';
 
+typedef JsonAnnotation = Map<String, dynamic>;
+
 class CouchDatabaseDatasource implements DatabaseDatasource {
   @override
   Future<QueryResult> delete(String sourceName, dynamic id) async {
@@ -63,7 +65,7 @@ class CouchDatabaseDatasource implements DatabaseDatasource {
       await source.close();
       if (results.isEmpty) {
         return QueryResult.failureResult(
-          errorMessage: CoreStringKeys.valueNotFoundDefaultException,
+          errorMessage: "Not found",
         );
       }
 
@@ -99,7 +101,7 @@ class CouchDatabaseDatasource implements DatabaseDatasource {
       await source.close();
       if (results.isEmpty) {
         return QueryResult.failureResult(
-          errorMessage: CoreStringKeys.valueNotFoundDefaultException,
+          errorMessage: "Not Found",
         );
       }
       return QueryResult.successResult(

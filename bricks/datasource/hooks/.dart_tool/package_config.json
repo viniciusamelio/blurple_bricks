@@ -2,6 +2,18 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "ansi_regex",
+      "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/ansi_regex-0.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "ansi_strip",
+      "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/ansi_strip-0.1.1+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "archive",
       "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/archive-3.4.9",
       "packageUri": "lib/",
@@ -14,10 +26,22 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "characters",
+      "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/characters-1.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "checked_yaml",
       "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/checked_yaml-2.0.3",
       "packageUri": "lib/",
       "languageVersion": "2.19"
+    },
+    {
+      "name": "cli_spin",
+      "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/cli_spin-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "collection",
@@ -36,6 +60,18 @@
       "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/crypto-3.0.3",
       "packageUri": "lib/",
       "languageVersion": "2.19"
+    },
+    {
+      "name": "east_asian_width",
+      "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/east_asian_width-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "emoji_regex",
+      "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/emoji_regex-0.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "ffi",
@@ -134,6 +170,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "string_width",
+      "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/string_width-0.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "term_glyph",
       "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/term_glyph-1.2.1",
       "packageUri": "lib/",
@@ -164,7 +206,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2023-11-13T17:20:35.470180Z",
+  "generated": "2023-11-13T17:53:11.023571Z",
   "generator": "pub",
   "generatorVersion": "3.1.5"
 }

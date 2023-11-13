@@ -10,7 +10,7 @@ void run(HookContext context) async {
     );
     await Process.run(
       "rm",
-      ["-R", "core/databse/couch_database"],
+      ["-R", "lib/core/database/couch_database"],
       runInShell: true,
     );
     return;

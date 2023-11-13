@@ -3,7 +3,7 @@
   "packages": [
     {
       "name": "archive",
-      "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/archive-3.3.7",
+      "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/archive-3.4.9",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -21,7 +21,7 @@
     },
     {
       "name": "collection",
-      "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/collection-1.17.2",
+      "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/collection-1.18.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -38,10 +38,16 @@
       "languageVersion": "2.19"
     },
     {
-      "name": "http",
-      "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/http-0.13.6",
+      "name": "ffi",
+      "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/ffi-2.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "http",
+      "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/http-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "http_parser",
@@ -63,19 +69,19 @@
     },
     {
       "name": "mason",
-      "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/mason-0.1.0-dev.49",
+      "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/mason-0.1.0-dev.51",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "mason_logger",
-      "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/mason_logger-0.2.6",
+      "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/mason_logger-0.2.10",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "meta",
-      "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/meta-1.9.1",
+      "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/meta-1.11.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -117,7 +123,7 @@
     },
     {
       "name": "stack_trace",
-      "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/stack_trace-1.11.0",
+      "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/stack_trace-1.11.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -140,19 +146,25 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "win32",
+      "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/win32-5.0.9",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "yaml",
       "rootUri": "file:///Users/viniciusamelio/.puro/shared/pub_cache/hosted/pub.dev/yaml-3.1.2",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
-      "name": "example_hooks",
+      "name": "datasource_hook",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2023-11-13T17:19:15.702222Z",
+  "generated": "2023-11-13T17:20:35.470180Z",
   "generator": "pub",
   "generatorVersion": "3.1.5"
 }

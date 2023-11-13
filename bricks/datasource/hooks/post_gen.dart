@@ -6,7 +6,7 @@ import 'package:mason/mason.dart';
 void run(HookContext context) async {
   final uuidSpinner = CliSpin(
     text: "Installing dependencies",
-    spinner: CliSpinners.bluePulse,
+    spinner: CliSpinners.aesthetic,
   );
   uuidSpinner.info();
   await Process.run("flutter", ["pub", "add", "uuid"]);

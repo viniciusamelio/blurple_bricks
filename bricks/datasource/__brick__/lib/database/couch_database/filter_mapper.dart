@@ -1,4 +1,4 @@
-import '../../core.dart';
+import '../filter.dart';
 
 abstract class CouchFilterMapper {
   static String parse(AggregateFilter filter) {

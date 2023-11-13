@@ -1,8 +1,10 @@
 import 'package:cbl/cbl.dart';
 import 'package:uuid/uuid.dart';
 
-import '../../core.dart';
-import '../../translation/string_keys.dart';
+import '../database_datasource.dart';
+import '../query.dart';
+import '../result.dart';
+import 'filter_mapper.dart';
 
 class CouchDatabaseDatasource implements DatabaseDatasource {
   @override

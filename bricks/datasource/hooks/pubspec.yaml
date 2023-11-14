@@ -6,4 +6,5 @@ environment:
 dependencies:
   mason: any
   cli_spin: ^1.0.1
+  slug: ^1.0.2
   

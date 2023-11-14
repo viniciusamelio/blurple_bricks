@@ -4,6 +4,8 @@
 bricks:
   datasource:
     path: ../bricks/datasource
+  github_actions:
+    path: ../bricks/github_actions
   # Bricks can be imported via version constraint from a registry.
   # Uncomment the following line to import the "hello" brick from BrickHub.
   # hello: 0.1.0+1
